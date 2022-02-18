@@ -815,7 +815,7 @@ margin-right: 30px;
 
 }
 /* лого+адрес */
-.right-footer {
+.left-footer {
   display: block;
   align-items: flex-start;
   margin-right: 70px;
@@ -824,7 +824,6 @@ margin-right: 30px;
 /* общий */
 .right-footer-wrapper {
   display: flex;
-  align-items: flex-start;
 }
 
 /* INPUT SUSCRIBE */
@@ -832,7 +831,6 @@ margin-right: 30px;
 
 .subscraber-wrap {
   display: flex;
-  align-items: center;
 }
 
 .subscraber-input {
@@ -844,8 +842,12 @@ margin-right: 30px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
-  
 
+.button.submit {
+
+}
+
+  
 /* MODAL SECTION */
 
 .modal-close-btn {
@@ -1023,10 +1025,10 @@ border: none;
 }
 
 .button.submit {
-  position: relative;
+  /* position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-  display: inline-block;
+  display: inline-block; */
   color: #ffffff;
   background-color: var(--accent-text-color);
   font-family: inherit;

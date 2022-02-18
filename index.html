@@ -263,8 +263,8 @@
 
     <footer class="footer section">
       <div class="right-footer-wrapper container">
-        <div class="right-footer">
-        <a href="./index.html" class="logo secondary">Web<span class="part">Studio</span></a>
+        <div class="left-footer">
+          <a href="./index.html" class="logo secondary">Web<span class="part">Studio</span></a>
           <address>
             <ul class="address list">
               <li class="item-li"><a href="" class="post">г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -293,76 +293,57 @@
               <use href="./images/symbol-defs.svg#icon-linkedin"></a>
             </li>
         </ul>
+        </div>
+        <div class="right-footer">
+          <h2 class="footer-social-title">ПОДПИШИСЬ НА РАССЫЛКУ</h2>
+          <form class="subscraber-wrap" action="#" method="post">
+            <input class="subscraber-input" type="email" name="" placeholder="E-mail" required value="" minlength="5" maxlength="20" />
+            <button class="button submit" type="submit">Подписаться</button>
+          </form>
+        </div>
       </div>
-      <div class="right-footer">
-        <h2 class="footer-social-title">ПОДПИШИСЬ НА РАССЫЛКУ</h2>
-        <form class="subscraber-wrap" action="#" method="post">
-          <input class="subscraber-input" type="email" name="" placeholder="E-mail" required value="" minlength="5" maxlength="20" />
-          <button class="button submit" type="submit">Подписаться</button>
-        </form>
-      </div>
-      </div>
-
-      <!-- Button suscribe -->
-
       </footer>
-
-<!-- MODAL SECTION -->
-<div class="backdrop is-hidden" data-modal>
-<div class="modal">
-<button data-modal-close><svg class="modal-close-btn" width="9" height="9">
-  <use href="./images/symbol-defs.svg#icon-close-black"></button>
-<p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-
-<form class="form" autocomplete="off">
-    <label class="form-field" for="name">
-      <input type="text" class="form-input" name="name" placeholder=" "/>
-      <span class="form-label">Имя</span>
-      <span><svg class="icon-modal"><use href="./images/symbol-defs.svg#icon-person-modal" width="18" height="18">
-      </use></svg></span>
-    </label>
-    <label class="form-field" for="name">
-      <input type="phone" class="form-input" name="phone" placeholder=" "/>
-      <span class="form-label">Телефон</span>
-      <span><svg class="icon-modal"><use href="./images/symbol-defs.svg#icon-phone-modal" width="18" height="18">
-      </use></svg></span>
-    </label>
-    <label class="form-field" for="name">
-      <input type="email" class="form-input" name="email" placeholder=" " />
-      <span class="form-label">Почта</span>
-      <span><svg class="icon-modal"><use href="./images/symbol-defs.svg#icon-email-modal" width="18" height="18">
-      </use></svg></span>
-    </label>
-    <label>
-      <textarea class="form-field" name="feedback" placeholder="Введите текст">
-        </textarea>
-        <span class="form-label">Комментарий</span>
-    </label>
-    
-<div class="modal-field">
-    <input type="checkbox" class="modal-check visually-hidden" name="agree" id="agree"/>
-    <label for="agree" class="modal-check-text">
-      Cоглашаюсь с рассылкой и принимаю&nbsp;
-      <a class="policy" href="#">Условия Договора</a>
-    </label>
-    <!-- <span>
-      <svg class="check-icon"><use href="./images/symbol-defs.svg#icon-icon-check" width="18" height="18">
-      </use></svg>
-    </span> -->
-</div>
-
-
-
-    <!-- 
-     
-      
-    </label> -->
-    <button class="button submit" type="submit" data-modal-close>Отправить</button>
-  </div>
-  </div>
- 
-</form>
-
+      <!-- MODAL SECTION -->
+      <div class="backdrop is-hidden" data-modal>
+       <div class="modal">
+         <button data-modal-close><svg class="modal-close-btn" width="9" height="9">
+         <use href="./images/symbol-defs.svg#icon-close-black"></button>
+          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+          <form class="form" autocomplete="off">
+                <label class="form-field" for="name">
+                  <input type="text" class="form-input" name="name" placeholder=" "/>
+                  <span class="form-label">Имя</span>
+                  <span><svg class="icon-modal"><use href="./images/symbol-defs.svg#icon-person-modal" width="18" height="18">
+                  </use></svg></span>
+                </label>
+                <label class="form-field" for="name">
+                  <input type="phone" class="form-input" name="phone" placeholder=" "/>
+                  <span class="form-label">Телефон</span>
+                  <span><svg class="icon-modal"><use href="./images/symbol-defs.svg#icon-phone-modal" width="18" height="18">
+                  </use></svg></span>
+                </label>
+                <label class="form-field" for="name">
+                  <input type="email" class="form-input" name="email" placeholder=" " />
+                  <span class="form-label">Почта</span>
+                  <span><svg class="icon-modal"><use href="./images/symbol-defs.svg#icon-email-modal" width="18" height="18">
+                  </use></svg></span>
+                </label>
+                <label>
+                  <textarea class="form-field" name="feedback" placeholder="Введите текст">
+                    </textarea>
+                    <span class="form-label">Комментарий</span>
+                </label>
+                      <div class="modal-field">
+                          <input type="checkbox" class="modal-check visually-hidden" name="agree" id="agree"/>
+                          <label for="agree" class="modal-check-text">
+                            Cоглашаюсь с рассылкой и принимаю&nbsp;
+                            <a class="policy" href="#">Условия Договора</a>
+                          </label>
+                      </div>
+                    <button class="button submit" type="submit" data-modal-close>Отправить</button>
+          </form>
+        </div>
+      </div>
 <script src="./js/modal.js">
 </script>
 </body>
