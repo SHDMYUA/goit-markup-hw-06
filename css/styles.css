@@ -812,6 +812,7 @@ margin-right: 30px;
 .center-footer {
   display: block;
   justify-content: center;
+  margin-right: 93px;
 
 }
 /* лого+адрес */
@@ -829,6 +830,21 @@ margin-right: 30px;
 
 /* INPUT SUSCRIBE */
 
+
+.subscraber-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.subscraber-input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  background-color: var(--bg-footer-color)
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
 
 /* MODAL SECTION */
 
