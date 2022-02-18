@@ -908,14 +908,12 @@ padding: 40px;
   margin-bottom: 24px;
 }
 
-.form {
- 
-}
 .form-field {
   position: relative;
   display: block;
-  margin-bottom: 18px;
-  border: 1px solid green;
+  margin-bottom: 28px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 .form-label {
@@ -923,20 +921,19 @@ padding: 40px;
   top: 50%;
   left: 40px;
   font-size: 12px;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
   color: var(--secondary-text-color);
   line-height: 1px;
   letter-spacing: 0.01em;
- transform: translateY(-50%);
+   transform: translateY(-50%);
 }
 
 .form-input {
   width: 100%;
-  height: 40px;
+  height: 36px;
   margin: 0;
   padding: 10px 40px;
   font: inherit;
-  
 }
 
 .icon-modal {
