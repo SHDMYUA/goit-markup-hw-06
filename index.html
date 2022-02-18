@@ -296,10 +296,16 @@
         </div>
         <div class="right-footer">
           <h2 class="footer-social-title">ПОДПИШИСЬ НА РАССЫЛКУ</h2>
-          <form class="subscraber-wrap" action="#" method="post">
-            <input class="subscraber-input" type="email" name="" placeholder="E-mail" required value="" minlength="5" maxlength="20" />
-            <button class="button submit" type="submit">Подписаться</button>
-          </form>
+          <input class="subscraber-input" type="email" name="" placeholder="E-mail" required value="" minlength="5" maxlength="20" />
+          <button class="button submit" type="submit">
+            <span class="button-text">Подписаться</span>
+            <span class="icon-button">
+              <svg class="icon-send">
+                <use href="./images/symbol-defs.svg#]icon-send" width="24" height="24">
+                </use>
+              </svg>
+            </span>
+          </button>
         </div>
       </div>
       </footer>
@@ -340,7 +346,7 @@
                             <a class="policy" href="#">Условия Договора</a>
                           </label>
                       </div>
-                    <button class="button submit" type="submit" data-modal-close>Отправить</button>
+                    <span class="button-modal"><button class="button submit" type="submit" data-modal-close>Отправить</button></span>
           </form>
         </div>
       </div>
