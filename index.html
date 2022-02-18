@@ -328,7 +328,7 @@
       </use></svg></span>
     </label>
     <label class="form-field" for="name">
-      <input type="email" class="form-input" name="email" placeholder=" "/>
+      <input type="email" class="form-input" name="email" placeholder=" " />
       <span class="form-label">Почта</span>
       <span><svg class="icon-modal"><use href="./images/symbol-defs.svg#icon-email-modal" width="18" height="18">
       </use></svg></span>
@@ -338,14 +338,25 @@
         </textarea>
         <span class="form-label">Комментарий</span>
     </label>
-    <label for="policy" class="modal-check-text">
-      <span>
-        <svg class="check-icon"><use href="./images/symbol-defs.svg#icon-icon-check" width="18" height="18">
-        </use></svg>
-      </span>
-      <p>Соглашаюсь с рассылкой и принимаю&nbsp;
-      <a class="policy" href="#">Условия Договора</a></p>
+    
+<div class="modal-field">
+    <input type="checkbox" class="modal-check visually-hidden" name="agree" id="agree"/>
+    <label for="agree" class="modal-check-text">
+      Cоглашаюсь с рассылкой и принимаю&nbsp;
+      <a class="policy" href="#">Условия Договора</a>
     </label>
+    <!-- <span>
+      <svg class="check-icon"><use href="./images/symbol-defs.svg#icon-icon-check" width="18" height="18">
+      </use></svg>
+    </span> -->
+</div>
+
+
+
+    <!-- 
+     
+      
+    </label> -->
     <button class="button submit" type="submit" data-modal-close>Отправить</button>
   </div>
   </div>
