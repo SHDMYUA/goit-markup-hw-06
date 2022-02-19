@@ -878,9 +878,6 @@ margin-right: 30px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /* display: flex;
-  align-items: center;
-  text-align: center; */
   letter-spacing: 0.06em;
   margin-right: 10px;
 }
@@ -890,7 +887,6 @@ margin-right: 30px;
 .modal-close-btn {
   position: absolute;
   align-items: center;
-  justify-content: center;
   cursor: pointer;
   outline: none;
   background: none;
@@ -900,20 +896,13 @@ margin-right: 30px;
   height: 30px;
   border-radius: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 6px;
+  padding: 8px;
  }
 
 .close-icon {
-  position: absolute
-  display: block;
-  align-items: center;
-  justify-content: center;
-  /* position: absolute;
-  top: 8px;
-  left: 8px;
-  transform: translate(0%,0%); */
   color: var(--primary-text-color);
 }
+
 
 .modal-close-btn:hover {
     fill: var(--accent-text-color);
