@@ -903,7 +903,6 @@ margin-right: 30px;
   color: var(--primary-text-color);
 }
 
-
 .modal-close-btn:hover {
     fill: var(--accent-text-color);
   }
@@ -1033,7 +1032,6 @@ padding: 40px;
   fill: var(--accent-text-color);
 }
 
-
 textarea {
   width: 100%;
   height: 120px;
@@ -1120,7 +1118,3 @@ color: var(--accent-text-color);
   -o-transition:  box-shadow 0.8s 0.1s ease;
   -webkit-transition:  box-shadow 0.8s 0.1s ease;
 }
-/* .button-modal {
-  display: flex;
-  justify-content: center;
-} */
